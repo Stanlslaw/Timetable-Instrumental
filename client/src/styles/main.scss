@@ -1,0 +1,13 @@
+$mainColor: #008b8b;
+$secondaryColor: #ff4500;
+
+.container{
+  width: 100%;
+  height: fit-content;
+  background-color: $secondaryColor;
+  h1{
+    color: $mainColor;
+    font-size: 100px;
+    text-align: center;
+  }
+}
