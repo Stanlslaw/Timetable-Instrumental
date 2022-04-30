@@ -1,7 +1,12 @@
 @import url(./rules.scss);
 
-$mainColor: #008b8b;
-$secondaryColor: #ff4500;
+$mainColor: #93b3b3;
+$secondaryColor: #8c4830;
+
+body{
+  margin: 0;
+  background-color: bisque;
+}
 
 .container {
   width: 100%;
@@ -12,12 +17,14 @@ $secondaryColor: #ff4500;
     font-size: 100px;
     text-align: center;
     font-family: 'Roboto';
+    margin: 0;
   }
   div {
     background-color: rgb(72, 29, 86);
     h1 {
       font-size: 50px;
       color: rgb(14, 141, 184);
+      margin: 0;
     }
   }
 }
