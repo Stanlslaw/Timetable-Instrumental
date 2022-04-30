@@ -1,9 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import './App/styles/main.scss';
-import Div from './App/components/Div';
+import ReactDOM from "react-dom/client";
+import "./App/styles/main.scss";
+import Div from "./App/components/Div";
 
-let x = 1949;
-alert(x);
+console.log('React 18.1.0')
 
-ReactDOM.render(<Div />, document.getElementById("root"));
+const container = document.getElementById("root");
+const root = ReactDOM.createRoot(container);
+root.render(<Div />);
