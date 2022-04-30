@@ -1,17 +1,39 @@
 @import url(./rules.scss);
 
-$mainColor: #93b3b3;
-$secondaryColor: #8c4830;
+$mainColor: #9962d0;
+$secondaryColor: #552514;
 
 body{
   margin: 0;
   background-color: bisque;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 .container {
   width: 100%;
   height: fit-content;
   background-color: $secondaryColor;
+  #root{
+    .body{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .cell{
+        box-sizing: border-box;
+        border: 2px black solid;
+        margin: 10px 0;
+        text-align: center;
+        width: 300px;
+        height: 225.5px;
+        background-image: url(../images/agent.gif);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
   h1 {
     color: $mainColor;
     font-size: 100px;
@@ -20,11 +42,10 @@ body{
     margin: 0;
   }
   div {
-    background-color: rgb(72, 29, 86);
     text-align: center;
     h1 {
       font-size: 50px;
-      color: rgb(14, 141, 184);
+      color: rgb(35, 114, 140);
       margin: 0;
     }
   }
