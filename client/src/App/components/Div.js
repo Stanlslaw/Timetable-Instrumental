@@ -5,7 +5,7 @@ function Div(){
   return(
     <div>
       <h1>
-        I am a Text!
+        Text created by React 18.1.0!
       </h1>
     </div>
   )

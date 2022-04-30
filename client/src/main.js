@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "../styles/main.scss";
-import Div from "../components/Div.js";
+import './App/styles/main.scss';
+import Div from './App/components/Div';
 
 let x = 1949;
 alert(x);

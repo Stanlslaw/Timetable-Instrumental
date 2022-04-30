@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === "production") {
 
 module.exports = {
   mode,
-  entry: "./src/App/main.js",
+  entry: "./src/main.js",
   devtool: "source-map",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -24,7 +24,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/App/main.html",
+      template: "./src/main.html",
     }),
     new MiniCssExtractPlugin({
       filename: "[name].[contenthash].css",
