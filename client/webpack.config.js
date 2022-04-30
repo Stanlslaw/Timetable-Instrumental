@@ -19,6 +19,7 @@ module.exports = {
 
   devServer: {
     hot: true,
+    port: 3300,
   },
 
   plugins: [
@@ -49,6 +50,13 @@ module.exports = {
       {
         test: /\.(woff2?|eot|ttf|otf)$/i,
         type: "asset/resource",
+      },
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: "babel-loader",
+        },
       },
     ],
   },
