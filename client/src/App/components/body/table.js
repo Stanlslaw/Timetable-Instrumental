@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-export default function Table(size) {
+export default function Table(props) {
   const array = [];
 
-  for (let index = 0; index < 225; index++) {
+  for (let index = 0; index < props.size; index++) {
     array[index] = <></>;
   }
 

@@ -8,7 +8,7 @@ console.log('React 18.1.0')
 
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
-root.render(<Table />);
+root.render(<Table size="225" />);
 
 const pre_container = document.getElementById("pre_root");
 const pre_root = ReactDOM.createRoot(pre_container);
