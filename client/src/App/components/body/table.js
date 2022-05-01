@@ -45,7 +45,6 @@ export default function Table(props) {
           key={con}
           className="cell"
           select
-          value={currency}
           onChange={handleChange}
         >
           {currencies.map((option) => (
