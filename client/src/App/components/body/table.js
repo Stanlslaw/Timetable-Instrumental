@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { TextField } from "@mui/material";
 
 export default function Table(props) {
   const array = [];
@@ -11,9 +12,12 @@ export default function Table(props) {
   return (
     <div className="body">
       {array.map((con) => (
-        <div className="cell" key={con}>
-          {con}
-        </div>
+        <TextField
+          className="cell"
+          margin="normal"
+          color="common"
+          focused
+        />
       ))}
     </div>
   );

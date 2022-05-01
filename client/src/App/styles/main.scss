@@ -1,14 +1,14 @@
 @import url(./rules.scss);
 
-$mainColor: #9962d0;
-$secondaryColor: #552514;
+$mainColor: #4d1d7d;
+$secondaryColor: #9e8880;
 
-body{
+body {
   margin: 0;
   background-color: bisque;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
@@ -16,21 +16,18 @@ body{
   width: 100%;
   height: fit-content;
   background-color: $secondaryColor;
-  #root{
-    .body{
+  #root {
+    .body {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      width: 70.9375%;
+      margin: auto;
       .cell{
-        box-sizing: border-box;
-        border: 2px black solid;
-        margin: 10px 0;
-        text-align: center;
-        width: 300px;
-        height: 225.5px;
-        background-image: url(../images/agent.gif);
-        background-size: contain;
-        background-repeat: no-repeat;
+        margin: 0;
+      }
+      div div fieldset{
+        border-radius: 0;
       }
     }
   }
@@ -38,7 +35,7 @@ body{
     color: $mainColor;
     font-size: 100px;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     margin: 0;
   }
   div {
