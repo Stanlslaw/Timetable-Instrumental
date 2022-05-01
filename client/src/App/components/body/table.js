@@ -36,6 +36,10 @@ export default function Table(props) {
       label: "АЛОЦВМ",
       value: "АЛОЦВМ",
     },
+    {
+      label: "RUBY ON RAILS",
+      value: "RUBY ON RAILS",
+    },
   ];
 
   return (
