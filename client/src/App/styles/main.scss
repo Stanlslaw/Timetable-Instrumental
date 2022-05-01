@@ -24,10 +24,11 @@ body {
       width: 70.9375%;
       margin: auto;
       .cell{
-        margin: 0;
+        width: 225px;
+        margin: 1px 0;
       }
-      div div fieldset{
-        border-radius: 0;
+      div div{  
+        border-radius: 0;        
       }
     }
   }
